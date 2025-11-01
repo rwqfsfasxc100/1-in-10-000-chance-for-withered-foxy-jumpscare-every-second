@@ -5,6 +5,7 @@ name="1 in 10,000 Chance Withered Foxy Jumpscare Every Second"
 description="FOXYJUMPSCARE_DESCRIPTION"
 brief="FOXYJUMPSCARE_BRIEF"
 author="__hev"
+credits=["ymy - original idea and the Terraria mod"]
 
 [version]
 
@@ -44,13 +45,13 @@ en="100%"
 
 [links]
 
-HEVLIB_GITHUB={"URL":"https://github.com/rwqfsfasxc100/VelocityPlus"}
-HEVLIB_DISCORD={"URL":"https://discord.com/channels/426287934870781952/1383342280878067762"}
-HEVLIB_NEXUS={"URL":"https://www.nexusmods.com/dvringsofsaturn/mods/19"}
+HEVLIB_GITHUB={"URL":"https://github.com/rwqfsfasxc100/1-in-10-000-chance-for-withered-foxy-jumpscare-every-second"}
+HEVLIB_NEXUS={"URL":"https://www.nexusmods.com/dvringsofsaturn/mods/22"}
 HEVLIB_DONATIONS={"URL":"https://ko-fi.com/00hev"}
 HEVLIB_BUGREPORTS={"URL":"https://forms.gle/vUoarawnYjy3hXJi9"}
+FOXYJUMPSCARE_ORIGINAL={"URL":"https://steamcommunity.com/sharedfiles/filedetails/?id=3481943642","ICON":"res://HevLib/ui/themes/icons/steam.stex","TOOLTIP":"FOXYJUMPSCARE_ORIGINAL_DESC"}
 
 [manifest_definitions]
 
 manifest_version=2.2
-manifest_url="https://raw.githubusercontent.com/rwqfsfasxc100/VelocityPlus/main/Mod.manifest"
+manifest_url="https://raw.githubusercontent.com/rwqfsfasxc100/1-in-10-000-chance-for-withered-foxy-jumpscare-every-second/main/Mod.manifest"

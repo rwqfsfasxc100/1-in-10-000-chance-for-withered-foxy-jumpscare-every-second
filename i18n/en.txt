@@ -2,14 +2,18 @@ locale|en
 
 FOXYJUMPSCARE_CFG|Configuration
 
-FOXYJUMPSCARE_CHANCE|
+FOXYJUMPSCARE_CHANCE|Jumpscare chance
 
-FOXYJUMPSCARE_CHANCE_DESC|
+FOXYJUMPSCARE_CHANCE_DESC|The range of random numbers used to select chance from. \nIf `1` is selected, then the jumpscare will happen.
 
-FOXYJUMPSCARE_INTERVAL|
+FOXYJUMPSCARE_INTERVAL|Interval
 
-FOXYJUMPSCARE_INTERVAL_DESC|
+FOXYJUMPSCARE_INTERVAL_DESC|The time (in seconds) between attemps to randomly roll a jumpscare.
 
-FOXYJUMPSCARE_DESCRIPTION|
+FOXYJUMPSCARE_DESCRIPTION|Based on the original mod for Terraria, this mod will cause a Withered Foxy jumpscare to happen very rarely.\n\nThis mod is purely made to screw the player over, so don't @ me if problems happen due to this being installed.
 
-FOXYJUMPSCARE_BRIEF|
+FOXYJUMPSCARE_BRIEF|Randomly causes a Withered Foxy jumpscare to happen very rarely. 
+
+FOXYJUMPSCARE_ORIGINAL|Original Terraria mod
+
+FOXYJUMPSCARE_ORIGINAL_DESC|The original mod and influence for this mod.

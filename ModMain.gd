@@ -10,9 +10,14 @@ const MOD_VERSION_MINOR = 0
 const MOD_VERSION_BUGFIX = 0
 const MOD_VERSION_METADATA = ""
 var modPath:String = get_script().resource_path.get_base_dir() + "/"
+
+var _savedObjects := []
+
+func _init(modLoader = ModLoader):
+	updateTL("i18n/en.txt", "|")
+
 func _ready():
 	l("Readying")
-	updateTL("i18n/en.txt", "|")
 	var layer = load(modPath + "FoxyLayer.tscn").instance()
 	var CRoot = get_tree().get_root()
 	CRoot.call_deferred("add_child",layer)

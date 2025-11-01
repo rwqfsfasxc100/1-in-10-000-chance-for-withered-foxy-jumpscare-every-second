@@ -38,6 +38,10 @@ func calculate_chance():
 		interval = configuration.get("interval",1)
 	var c = rng.randi_range(1,chance)
 	if c <= 1:
+		rng.randomize()
+		rng.randomize()
+		rng.randomize()
+		rng.randomize()
 		start()
 	
 var interval = 1
