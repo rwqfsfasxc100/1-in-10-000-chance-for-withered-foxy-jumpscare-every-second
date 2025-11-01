@@ -1,0 +1,56 @@
+[mod_information]
+
+id="hev.FoxyJumpscare"
+name="1 in 10,000 Chance Withered Foxy Jumpscare Every Second"
+description="FOXYJUMPSCARE_DESCRIPTION"
+brief="FOXYJUMPSCARE_BRIEF"
+author="__hev"
+
+[version]
+
+version_major=1
+version_minor=0
+version_bugfix=0
+
+
+[configs]
+
+FOXYJUMPSCARE_CFG={
+	"jumpscare_chance":{
+		"name":"FOXYJUMPSCARE_CHANCE",
+		"description":"FOXYJUMPSCARE_CHANCE_DESC",
+		"type":"int",
+        "style":"slider",
+        "min":1000,
+        "max":1000000,
+        "step":1000,
+		"default":10000,
+	},
+	"interval":{
+		"name":"FOXYJUMPSCARE_INTERVAL",
+		"description":"FOXYJUMPSCARE_INTERVAL_DESC",
+		"type":"float",
+        "style":"slider",
+        "min":0.25,
+        "max":10,
+        "step":0.25,
+		"default":1,
+	},
+}
+
+[languages]
+
+en="100%"
+
+[links]
+
+HEVLIB_GITHUB={"URL":"https://github.com/rwqfsfasxc100/VelocityPlus"}
+HEVLIB_DISCORD={"URL":"https://discord.com/channels/426287934870781952/1383342280878067762"}
+HEVLIB_NEXUS={"URL":"https://www.nexusmods.com/dvringsofsaturn/mods/19"}
+HEVLIB_DONATIONS={"URL":"https://ko-fi.com/00hev"}
+HEVLIB_BUGREPORTS={"URL":"https://forms.gle/vUoarawnYjy3hXJi9"}
+
+[manifest_definitions]
+
+manifest_version=2.2
+manifest_url="https://raw.githubusercontent.com/rwqfsfasxc100/VelocityPlus/main/Mod.manifest"

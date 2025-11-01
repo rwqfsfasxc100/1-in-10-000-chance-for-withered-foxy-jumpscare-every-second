@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/scare.mp3-090529a053c035d3f5e540940f2eb12a.mp3str"
+
+[deps]
+
+source_file="res://FoxyJumpscare/assets/scare.mp3"
+dest_files=[ "res://.import/scare.mp3-090529a053c035d3f5e540940f2eb12a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
