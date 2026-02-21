@@ -9,7 +9,7 @@ load_path = "res://FoxyJumpscare/assets/fox.stex"
 
 [sub_resource type="Animation" id=2]
 resource_name = "fox"
-length = 0.5
+length = 1.75
 tracks/0/type = "value"
 tracks/0/path = NodePath("Sprite:frame")
 tracks/0/interp = 1
@@ -29,11 +29,14 @@ tracks/1/loop_wrap = true
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/keys = {
-"times": PoolRealArray( 0.5 ),
-"transitions": PoolRealArray( 1 ),
+"times": PoolRealArray( 0.5, 1.72 ),
+"transitions": PoolRealArray( 1, 1 ),
 "values": [ {
 "args": [  ],
 "method": "clear"
+}, {
+"args": [  ],
+"method": "audioStop"
 } ]
 }
 tracks/2/type = "value"
@@ -62,15 +65,16 @@ tracks/3/keys = {
 }
 
 [node name="FoxyLayer" type="CanvasLayer"]
+pause_mode = 2
 layer = 128
-visible = false
 script = ExtResource( 1 )
+playing = true
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = SubResource( 1 )
 centered = false
 vframes = 14
-frame = 13
+frame = 2
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/fox = SubResource( 2 )

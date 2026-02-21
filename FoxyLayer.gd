@@ -6,6 +6,8 @@ var rng = RandomNumberGenerator.new()
 var cfg = null
 var ConfigDriver = preload("res://HevLib/pointers/ConfigDriver.gd")
 func _ready():
+	visible = false
+	$AudioStreamPlayer.stop()
 	var dir = Directory.new()
 	if dir.file_exists("res://HevLib/pointers/ConfigDriver.gd"):
 		config_exists = true
@@ -15,9 +17,18 @@ func _ready():
 
 func clear():
 	$Sprite.frame = 0
+	
+	visible = false
+
+func audioStop():
+	canPlay = true
+	$AudioStreamPlayer.playing = false
 	$AnimationPlayer.stop()
 
+var canPlay = true
 func start():
+	visible = true
+	canPlay = false
 	var size = Settings.getViewportSize()
 	var newscale = size.x / 1024
 #	var newOffset = float(size.x - 1024) / 2
@@ -28,7 +39,7 @@ func start():
 	$Sprite.frame = 0
 	$AnimationPlayer.play("fox")
 	$AudioStreamPlayer.seek(0.0)
-	$AudioStreamPlayer.play()
+	$AudioStreamPlayer.playing = true
 
 func calculate_chance():
 	var chance = 10000
@@ -50,6 +61,6 @@ func _physics_process(delta):
 	count += delta
 	if count >= interval:
 		count = 0.0
-		if not playing:
+		if canPlay:
 			calculate_chance()
 
