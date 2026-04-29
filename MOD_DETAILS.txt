@@ -3,7 +3,7 @@
 ;AUTHOR|__hev
 ;MOD_ZIP_NAME|1-in-10-000-chance-for-withered-foxy-jumpscare-every-second.zip
 
-[b]1 in 10,000 Chance Withered Foxy Jumpscare Every Second[/b]
+[center][b]1 in 10,000 Chance Withered Foxy Jumpscare Every Second[/b][/center]
 
 Adds a small chance for a jumpscare to happen at any point in the game.
 Fully configurable with weights and delays in the mod menu!
