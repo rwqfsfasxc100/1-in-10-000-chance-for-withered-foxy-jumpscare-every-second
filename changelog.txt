@@ -1,0 +1,14 @@
+[1.0.2]
+
+1=* Updated config fetching to use more modern and efficient methods.
+2=* Added expected manifest path to ensure proper installation when installed alongside HevLib
+3=* Updated ModMain `updateTL` function to newer standards
+4=* Added licensing
+
+[1.0.1]
+
+1=* Fixed several issues that could cause audio playback to not stop
+
+[1.0.0]
+
+1=* Initial release
