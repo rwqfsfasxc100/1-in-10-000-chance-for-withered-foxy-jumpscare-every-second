@@ -11,7 +11,7 @@ credits=PoolStringArray( "ymy - original idea and the Terraria mod" )
 
 version_major=1
 version_minor=0
-version_bugfix=3
+version_bugfix=4
 
 [links]
 

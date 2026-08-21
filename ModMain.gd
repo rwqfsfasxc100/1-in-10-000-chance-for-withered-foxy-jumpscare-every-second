@@ -36,7 +36,7 @@ const MOD_PRIORITY = 0
 const MOD_NAME = "1 in 10,000 Chance Withered Foxy Jumpscare Every Second"
 const MOD_VERSION_MAJOR = 1
 const MOD_VERSION_MINOR = 0
-const MOD_VERSION_BUGFIX = 3
+const MOD_VERSION_BUGFIX = 4
 const MOD_VERSION_METADATA = ""
 var modPath:String = get_script().resource_path.get_base_dir() + "/"
 

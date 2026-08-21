@@ -1,3 +1,7 @@
+[1.0.4]
+
+1=* Fixed crash caused by a malformatted translation file
+
 [1.0.3]
 
 1=* Fixed filepath desync that caused the jumpscare nor its sound to ever play. This mod now works as intended.
