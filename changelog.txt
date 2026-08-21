@@ -1,3 +1,7 @@
+[1.0.3]
+
+1=* Fixed filepath desync that caused the jumpscare nor its sound to ever play. This mod now works as intended.
+
 [1.0.2]
 
 1=* Updated config fetching to use more modern and efficient methods.

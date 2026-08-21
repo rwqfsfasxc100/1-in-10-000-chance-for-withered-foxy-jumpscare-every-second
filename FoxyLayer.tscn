@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://FoxyJumpscare/FoxyLayer.gd" type="Script" id=1]
-[ext_resource path="res://FoxyJumpscare/assets/scare.mp3str" type="AudioStream" id=2]
+[ext_resource path="res://1-in-10-000-chance-for-withered-foxy-jumpscare-every-second/FoxyLayer.gd" type="Script" id=1]
+[ext_resource path="res://1-in-10-000-chance-for-withered-foxy-jumpscare-every-second/assets/scare.mp3str" type="AudioStream" id=2]
 
 [sub_resource type="StreamTexture" id=1]
 flags = 4

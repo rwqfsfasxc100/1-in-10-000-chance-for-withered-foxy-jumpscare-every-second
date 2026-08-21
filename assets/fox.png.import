@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/fox.png-8103404153110c95dd5c50bbaed9804e.stex"
+path="res://.import/fox.png-ae0596401042914997f7d9e262c99e14.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FoxyJumpscare/assets/fox.png"
-dest_files=[ "res://.import/fox.png-8103404153110c95dd5c50bbaed9804e.stex" ]
+source_file="res://1-in-10-000-chance-for-withered-foxy-jumpscare-every-second/assets/fox.png"
+dest_files=[ "res://.import/fox.png-ae0596401042914997f7d9e262c99e14.stex" ]
 
 [params]
 

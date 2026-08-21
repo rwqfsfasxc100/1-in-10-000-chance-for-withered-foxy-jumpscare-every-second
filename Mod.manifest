@@ -11,7 +11,7 @@ credits=PoolStringArray( "ymy - original idea and the Terraria mod" )
 
 version_major=1
 version_minor=0
-version_bugfix=2
+version_bugfix=3
 
 [links]
 
@@ -72,4 +72,4 @@ en="100%"
 manifest_version=2.2
 manifest_url="https://raw.githubusercontent.com/rwqfsfasxc100/1-in-10-000-chance-for-withered-foxy-jumpscare-every-second/main/Mod.manifest"
 changelog_path="changelog.txt"
-expected_manifest_path="res://FoxyJumpscare/Mod.manifest"
+expected_manifest_path="res://1-in-10-000-chance-for-withered-foxy-jumpscare-every-second/Mod.manifest"
