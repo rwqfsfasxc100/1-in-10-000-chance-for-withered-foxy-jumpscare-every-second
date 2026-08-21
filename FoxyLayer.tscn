@@ -5,7 +5,7 @@
 
 [sub_resource type="StreamTexture" id=1]
 flags = 4
-load_path = "res://FoxyJumpscare/assets/fox.stex"
+load_path = "res://1-in-10-000-chance-for-withered-foxy-jumpscare-every-second/assets/fox.stex"
 
 [sub_resource type="Animation" id=2]
 resource_name = "fox"
